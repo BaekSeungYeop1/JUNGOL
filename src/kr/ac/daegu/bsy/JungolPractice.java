@@ -4,14 +4,59 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class JungolPractice {
-    // 출력: 자가진단 1
-    // http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=140&sca=10
+    // 출력 : 자가진단 1
     public void practice1() {
+        System.out.println("Fun Programming!");
+    }
+
+    // 출력 : 자가진단 2
+    public void practice2() {
+        System.out.println("Programming! It's fun.");
+    }
+
+    // 출력: 자가진단 3
+    // http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=140&sca=10
+    public void practice3() {
         System.out.println("My name is Hong Gil Dong.");
         System.out.println("I am 13 years old.");
         //javascript 같은 경우
         // console.log('hihi');
-        char ch = 'a';
+        //char ch = 'a';
+    }
+
+    // 출력 : 자가진단 4
+    public void practice4() {
+        System.out.println("(@) (@)");
+        System.out.println("(=^.^=)");
+        System.out.println("(-m-m-)");
+    }
+
+    // 출력 : 자가진단 5
+    public void practice5() {
+        System.out.println("I can program well.");
+        System.out.println("Dreams come true.");
+    }
+
+    // 출력 : 자가진단 6
+    public void practice6() {
+        System.out.println("My height");
+        System.out.println("170");
+        System.out.println("My weight");
+        System.out.println("68.600000");
+    }
+
+    // 출력 : 자가진단 7
+    public void practice7() {
+        System.out.println("5 Dan");
+        System.out.println("5 * 2 = 10");
+    }
+
+    // 출력 : 자가진단 8
+    public void practice8() {
+        System.out.printf("%10s%10s%10s\n", "item", "count", "price");
+        System.out.printf("%10s%10d%10d\n", "pen", 20, 100);
+        System.out.printf("%10s%10d%10d\n", "note", 5, 95);
+        System.out.printf("%10s%10d%10d\n", "eraser", 110, 97);
     }
 
     /*
@@ -19,7 +64,7 @@ public class JungolPractice {
      * 2.1야드와 10.5인치를 각각 cm로 변환하여
      * 다음 형식에 맞추어 소수 첫째자리까지 출력하시오.
      * */
-    public void practice2() {
+    public void practice11112() {
         float yd = 91.44f; // 실수는 float
         float in = 2.54f;
         float yardToCm = 2.1f * yd;
@@ -35,7 +80,7 @@ public class JungolPractice {
     // 1 두 개의 문자열을 입력받아서
     // 2 두 문자열의 길이의 합을 출력하는 프로그램을 작성하시오.
     // 3 각 문자열의 길이는 30자 미만이다.
-    public void practice3() {
+    public void practice11113() {
         // 입력받기
         Scanner sc = new Scanner(System.in);
         System.out.println("첫번째 문자열 을 입력하세요");
@@ -58,11 +103,11 @@ public class JungolPractice {
     }
 
     // 5개의 정수를 입력받아 모두 붙여서 문자열로 저장한 후 세 자씩 나누어서 출력하는 프로그램을 작성하시오.
-    public void practice4() {
+    public void practice11115() {
         System.out.println("practice4");
     }
 
-    public void practice5() {
+    public void practice11117() {
         //5개의 정수를 입력받는다
         // 모두 붙여서 문자열로 저장
         // 세 자씩 나누어 출력
@@ -116,7 +161,7 @@ public class JungolPractice {
     //그렇지 않으면"불합격"
     //합격한 사람의 수를 출력하는 프로그램
     //optional mission : 가능한 메소드로 분리해서 작성
-    public void  practice6(){
+    public void  practice111111111(){
         Scanner sc = new Scanner(System.in);
         int[][] arr = new int[3][2];
         int i;
@@ -151,7 +196,7 @@ public class JungolPractice {
     // 그 문자가 'Y' 나 'y'이면 작업을 반복
     // 다른 문자이면 종료하는 프로그램
     // (넓이는 반올림하여 소수 첫번째 자리까지)
-    public void practice7(){
+    public void practice2222222222222(){
         Scanner sc = new Scanner(System.in);
 
         while(true){
