@@ -102,7 +102,36 @@ public class JungolPractice {
         System.out.printf("%15s%15s%15s", "Gwangju", "1,454,636", "+29,774");
     }
 
+    // 입력 : 자가진단 1
+    public void practice14(){
+        int a = -100;
+        System.out.println(a);
+    }
 
+    // 입력 : 자가진단 2
+    public void practice15(){
+        int a = -1;
+        int b = 100;
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+    // 입력 : 자가진단 3
+    public void practice16(){
+        int a = 55;
+        int b = 10;
+        int c = 2008;
+        int d = 1999;
+        System.out.println("55 - 10 = " + (a-b));
+        System.out.println("2008 - 1999 = " + (c-d));
+    }
+
+    // 입력 : 자가진단 4
+    public void practice17(){
+        int a = 49;
+        double b = 0.2683;
+        System.out.printf("49 * 0.268300 = %.6f" , (a*b));
+    }
 
     /*
      * 1야드(yd)는 91.44cm이고 1인치(in)는 2.54cm이다.
