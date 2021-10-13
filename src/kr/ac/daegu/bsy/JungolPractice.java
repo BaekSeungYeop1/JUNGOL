@@ -59,6 +59,51 @@ public class JungolPractice {
         System.out.printf("%10s%10d%10d\n", "eraser", 110, 97);
     }
 
+    // 출력 : 형성평가 1
+    public void practice9() {
+        System.out.println("My name is Hong");
+    }
+
+    // 출력 : 형성평가 2
+    public void practice10() {
+        System.out.println("My hometown");
+        System.out.println("Flowering mountain");
+    }
+
+    // 출력 : 형성평가 3
+    public void practice11() {
+        System.out.println("TTTTTTTTTT");
+        System.out.println("TTTTTTTTTT");
+        System.out.printf("%6s\n", "TT");
+        System.out.printf("%6s\n", "TT");
+        System.out.printf("%6s\n", "TT");
+    }
+
+    // 출력 : 형성평가 4
+    public void practice12() {
+        int kor = 90;
+        int mat = 80;
+        int eng = 100;
+        int sum = (kor + mat + eng);
+        int avg = (sum/3);
+        System.out.println("kor " + kor);
+        System.out.println("mat " + mat);
+        System.out.println("eng " + eng);
+        System.out.println("sum " + sum);
+        System.out.println("avg " + avg);
+    }
+
+    // 출력 : 형성평가 5
+    public void practice13() {
+        System.out.printf("%15s%15s%15s\n", "Seoul", "10,312,545", "+91,375");
+        System.out.printf("%15s%15s%15s\n", "Pusan", "3,567,910", "+5,868");
+        System.out.printf("%15s%15s%15s\n", "Incheon", "2,758,296", "+64,888");
+        System.out.printf("%15s%15s%15s\n", "Daegu", "2,511,676", "+17,230");
+        System.out.printf("%15s%15s%15s", "Gwangju", "1,454,636", "+29,774");
+    }
+
+
+
     /*
      * 1야드(yd)는 91.44cm이고 1인치(in)는 2.54cm이다.
      * 2.1야드와 10.5인치를 각각 cm로 변환하여

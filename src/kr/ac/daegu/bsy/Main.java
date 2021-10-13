@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
        JungolPractice jp = new JungolPractice();
-       jp.practice8();
+       jp.practice13();
     }
 }
