@@ -133,23 +133,47 @@ public class JungolPractice {
         System.out.printf("49 * 0.268300 = %.6f" , (a*b));
     }
 
+    // 입력 : 자가진단 5
+    public void practice18(){
+        float yd = 91.44f;
+        float in = 2.54f;
+
+        System.out.printf(" 2.1yd = %.1f", (2.1*yd));
+        System.out.print("cm\n");
+        System.out.printf("10.5in =  %.1f", (10.5*in));
+        System.out.print("cm\n");
+    }
+
+    // 입력 : 자가진단 5
     /*
      * 1야드(yd)는 91.44cm이고 1인치(in)는 2.54cm이다.
      * 2.1야드와 10.5인치를 각각 cm로 변환하여
      * 다음 형식에 맞추어 소수 첫째자리까지 출력하시오.
      * */
-    public void practice11112() {
-        float yd = 91.44f; // 실수는 float
-        float in = 2.54f;
-        float yardToCm = 2.1f * yd;
-        float inchToCm = 10.5f * in;
+//    public void practice18() {
+//        float yd = 91.44f; // 실수는 float
+//        float in = 2.54f;
+//        float yardToCm = 2.1f * yd;
+//        float inchToCm = 10.5f * in;
+//
+//        String strYardToCm = String.format("%.1f", yardToCm);
+//        String strInchToCm = String.format("%.1f", inchToCm);
+//
+//        System.out.println("2.1야드toCm : " + strYardToCm);
+//        System.out.println("10.5인치toCm : " + strInchToCm);
+//    }
 
-        String strYardToCm = String.format("%.1f", yardToCm);
-        String strInchToCm = String.format("%.1f", inchToCm);
+    // 입력 : 자가진단6
+    public void practice19(){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("height = ");
+        int height = sc.nextInt();
 
-        System.out.println("2.1야드toCm : " + strYardToCm);
-        System.out.println("10.5인치toCm : " + strInchToCm);
+        System.out.println("Your height is " + height + "cm.");
     }
+
+    // 입력 : 자가진단7
+
 
     // 1 두 개의 문자열을 입력받아서
     // 2 두 문자열의 길이의 합을 출력하는 프로그램을 작성하시오.
