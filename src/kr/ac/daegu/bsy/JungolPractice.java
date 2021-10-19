@@ -173,6 +173,14 @@ public class JungolPractice {
     }
 
     // 입력 : 자가진단7
+    public void practice20(){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.printf("%d * %d = %d\n",a,b,(a*b) );
+        System.out.printf("%d / %d = %d",a,b,(a/b) );
+    }
 
 
     // 1 두 개의 문자열을 입력받아서
@@ -247,10 +255,7 @@ public class JungolPractice {
             count++;
         }
 
-        //3명 학생의 국어 영영 2과목의 점수를 입력 받아서
-        // 각개인별로 평균이 80 이상이면 "합격"
-        //그렇지 않으면"불합격"
-        //합격한 사람의 수를 출력하는 프로그램
+
 
     }
 
