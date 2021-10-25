@@ -182,6 +182,19 @@ public class JungolPractice {
         System.out.printf("%d / %d = %d",a,b,(a/b) );
     }
 
+    // 입력 : 자가진단8
+    public void practice21(){
+        Scanner sc = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+        double num1 = sc.nextDouble();
+        double num2 = sc.nextDouble();
+        String str = sc2.nextLine();
+
+        System.out.printf("%.2f%n", num1);
+        System.out.printf("%.2f%n", num2);
+        System.out.println(str);
+    }
+
 
     // 1 두 개의 문자열을 입력받아서
     // 2 두 문자열의 길이의 합을 출력하는 프로그램을 작성하시오.
